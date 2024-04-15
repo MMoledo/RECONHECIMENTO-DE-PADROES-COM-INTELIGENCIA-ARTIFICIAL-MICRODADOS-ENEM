@@ -13,7 +13,7 @@ collums = [
 
 
 # Carregando o dataframe
-df = pd.read_csv('MICRODADOS_ENEM_2022.csv', encoding='latin1', sep=';')
+df = pd.read_csv('Limpa/MICRODADOS_ENEM_2022.csv', encoding='latin1', sep=';')
 
 # Eliminando linhas onde todas as colunas específicas têm o valor 0
 colunas_presenca = ['TP_PRESENCA_CN', 'TP_PRESENCA_CH', 'TP_PRESENCA_LC', 'TP_PRESENCA_MT']
